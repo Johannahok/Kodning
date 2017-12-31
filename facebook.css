@@ -1,0 +1,74 @@
+/* Example styling of a h1 element */
+
+
+body {
+    background-color:rgba(235, 147, 121, 1);
+    }
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Container holding the image and the text */
+.road {
+    
+    position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: white;
+    color: grey;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/* All elements with class="road1" */
+.road1[type=text] 
+{
+    display: block;
+    width: 299px;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    box-sizing: 400px
+    }
+
+/* All elements with class="road2" */
+.road2[type=password] 
+{
+display: block;
+width: 299px;
+padding: 12px 20px;
+margin: 8px 0px;
+box-sizing: 400px
+
+	
+
+}
+
+
+.button {
+    background-color: #4CAF50; /* Black */
+    border: none;
+    color: 000;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+}
